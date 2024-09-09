@@ -8,4 +8,5 @@ jobs:
     container: sorenmaagaard/cuda-10.2-windows-ci
     steps:
       - uses: actions/checkout@v4
+      - run: python setup.py
   
